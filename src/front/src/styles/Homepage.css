@@ -1,0 +1,112 @@
+@media all and (min-width: 650px) {
+
+    .container0 {
+        font-family: Calibri, "Times New Roman", sans-serif;
+        color: #222222;
+        display: flex;
+        flex-direction: row;
+        width: 75vw;
+        margin: 20vh auto 20vh auto;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #welcome-heading {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+        border-bottom: solid #222222 3px;
+        margin-bottom: 0;
+    }
+
+    .left-div-main {
+        padding-top: 0;
+        margin-top: 0;
+        width: 50vw;
+        height: fit-content;
+        min-height: 40vh;
+        margin-bottom: 20px;
+    }
+
+    .right-div-main {
+        width: 25vw;
+        min-width: 280px;
+        margin-top: 6.5vh;
+        padding-top: 0;
+        margin-bottom: 0;
+        height: fit-content;
+    }
+
+    #to-blog-posts, #to-writing-posts {
+        background-color: #aabec5;
+        border: solid #222222 1px;
+        width: 180px;
+        text-align: center;
+        font-size: 1.5rem;
+        color: white;
+        margin: 0 auto -1px auto;
+        padding: 10px 10px;
+    }
+
+    #to-blog-posts:hover, #to-writing-posts:hover{
+        background-color: #778e95;
+        cursor: pointer;
+    }
+
+    .text-body-main {
+        font-size: 1.3rem;
+        padding-top: 20px;
+        border-bottom: solid #222222 2px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 650px) {
+
+    .container0 {
+        font-family: Calibri, "Times New Roman", sans-serif;
+        color: #222222;
+        width: 90vw;
+        margin: 20vh auto 20vh auto;
+        background-color: white;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #to-blog-posts, #to-writing-posts {
+        background-color: #aabec5;
+        border: solid #222222 1px;
+        width: 180px;
+        text-align: center;
+        font-size: 1.5rem;
+        color: white;
+        margin: 0 auto -1px auto;
+        padding: 10px 10px;
+    }
+
+    #to-blog-posts:hover, #to-writing-posts:hover{
+        background-color: #778e95;
+        cursor: pointer;
+    }
+
+    #welcome-heading {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 2rem;
+        padding-bottom: 20px;
+        border-bottom: solid #222222 3px;
+        margin-bottom: 0;
+    }
+
+    .text-body-main {
+        font-size: 1.1rem;
+        padding-top: 20px;
+        border-bottom: solid #222222 2px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+}

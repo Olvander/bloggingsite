@@ -1,0 +1,174 @@
+
+.label {
+    margin: 0 0 0 10px;
+}
+
+#form-submit {
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+@media all and (min-width: 910px) {
+    #form-div {
+        background-color: white;
+        border-radius: 15px;
+
+        width: 75vw;
+        margin: 20vh auto 20vh auto;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (min-width: 650px) and (max-width: 910px) {
+
+    #form-div {
+        width: 75vw;
+        margin: 20vh auto 20vh auto;
+        background-color: white;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media all and (min-width: 650px) {
+
+    #left-div-form {
+        width: 50vw;
+    }
+
+    #heading {
+        text-align: center;
+        width: 50vw;
+        min-width: 483px;
+        margin-left: 10px;
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+        border-bottom: solid #222222 3px;
+        margin-bottom: 0;
+    }
+
+    #name-input-field {
+        margin-left: 10px;
+        width: 250px;
+        border-radius: 2px;
+    }
+
+    #title-input-field {
+        margin-left: 10px;
+        width: 250px;
+        border-radius: 2px;
+    }
+
+    #category-chooser {
+        margin-left: 10px;
+        border-radius: 2px;
+        width: 110px;
+    }
+
+    #blog-post-area {
+        margin-left: 10px;
+        width: 50vw;
+        min-width: 483px;
+        height: 400px;
+        border-radius: 2px;
+    }
+
+    .right-div-main {
+        width: 25vw;
+        min-width: 280px;
+        margin-top: 6.5vh;
+        padding-top: 0;
+        margin-bottom: 0;
+        height: fit-content;
+    }
+
+    #to-homepage, #to-blogs {
+        background-color: #aabec5;
+        border: solid #222222 1px;
+        width: 180px;
+        text-align: center;
+        font-size: 1.5rem;
+        color: white;
+        margin: 0 auto -1px auto;
+        padding: 10px 10px;
+    }
+
+    #to-homepage:hover, #to-blogs:hover {
+        background-color: #778e95;
+        cursor: pointer;
+    }
+}
+
+@media all and (max-width: 650px) {
+
+    #form-div {
+        width: 100vw;
+        margin: 20vh auto 20vh auto;
+        background-color: white;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #name-input-field {
+        margin-left: 10px;
+        width: 85vw;
+        max-width: 250px;
+        border-radius: 2px;
+    }
+
+    #title-input-field {
+        margin-left: 10px;
+        width: 85vw;
+        max-width: 250px;
+        border-radius: 2px;
+    }
+
+    #category-chooser {
+        margin-left: 10px;
+        border-radius: 2px;
+        width: 111px;
+    }
+
+    #blog-post-area {
+        width: 85vw;
+        margin-left: 10px;
+        height: 400px;
+        border-radius: 2px;
+    }
+
+    #heading {
+        text-align: center;
+        width: 85vw;
+        margin-left: 10px;
+        margin-top: 5vh;
+        font-size: 1.9rem;
+        padding-bottom: 20px;
+        border-bottom: solid #222222 3px;
+        margin-bottom: 0;
+    }
+
+    #to-homepage, #to-blogs {
+        background-color: #aabec5;
+        border: solid #222222 1px;
+        width: 180px;
+        text-align: center;
+        font-size: 1.5rem;
+        color: white;
+        margin: 0 auto -1px auto;
+        padding: 10px 10px;
+    }
+
+    #to-homepage:hover, #to-blogs:hover {
+        background-color: #778e95;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+}
+
+@media all and (min-width: 800px) {
+    .container1 {
+        font-family: Calibri, "Times New Roman", sans-serif;
+        color: #222222;
+        display: flex;
+        flex-direction: row;
+        width: 75vw;
+        margin: 20vh auto 20vh auto;
+
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .blog-body {
+        font-size: 1.3rem;
+        padding-top: 20px;
+        border-bottom: solid #222222 2px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .blogTitle  {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+        border-bottom: solid #222222 3px;
+        margin-bottom: 0;
+    }
+
+    .left-div {
+        padding-top: 0;
+        margin-top: 0;
+        width: 55vw;
+        height: fit-content;
+        min-height: 40vh;
+    }
+
+    .right-div {
+        border: solid #555555 4px;
+        border-top: none;
+        border-right: none;
+        border-bottom-left-radius: 10px;
+
+        margin-top: 8vh;
+        padding-top: 0;
+
+        padding-bottom: 2vh;
+        margin-bottom: 0;
+        height: fit-content;
+        margin-left: 0.5vw;
+
+        display:flex;
+        flex-direction: column;
+    }
+
+    .metaData {
+        margin-left: 1vw;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        float: right;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .container1 {
+        font-family: Calibri, "Times New Roman", sans-serif;
+        color: #222222;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 86vw;
+        margin: 20vh auto 20vh auto;
+
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .a {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .blogTitle  {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 1.8rem;
+        padding-bottom: 20px;
+        border-bottom: solid #222222 3px;
+        margin-bottom: 0;
+    }
+
+    .blog-body {
+        font-size: 1.3rem;
+        padding-top: 20px;
+        border-bottom: solid #222222 2px;
+        padding-bottom: 20px;
+    }
+
+    .left-div {
+        padding-top: 0;
+        margin-top: 0;
+        height: fit-content;
+        min-height: 40vh;
+    }
+
+    .right-div {
+        margin-top: 0;
+        padding-top: 0;
+        border-bottom: solid #222222 1px;
+
+        padding-bottom: 2vh;
+        margin-bottom: 0;
+        height: fit-content;
+    }
+
+    .metaData {
+        margin-top: 0;
+        padding-top: 5vh;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
